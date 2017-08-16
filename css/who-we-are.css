@@ -1,0 +1,30 @@
+.who-we-are {
+	margin: 0 auto 168px;
+}
+
+.who-we-are__left {
+	position: relative;
+	float: left;
+	margin: 0 65px 0 0;
+}
+
+.who-we-are__left::after {
+	content: "Кто мы ?";
+	position: absolute;
+	top: 44px;
+	right: 148px;
+	bottom: 44px;
+	left: 144px;
+	padding: 34px 125px 0 40px;
+	font: 700 60px/70px "PT Sans", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border: 10px solid #f1c40f;
+}
+
+.who-we-are__text {
+	margin: 0;
+	padding: 8px 0 39px;
+	font-size: 20px;
+	line-height: 1.5;
+}

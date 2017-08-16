@@ -1,0 +1,62 @@
+.connect {
+	height: 367px;
+	margin: 0 auto 158px;
+}
+
+.connect__form {
+	float: left;
+	width: 590px;
+}
+.connect__form-title {
+	position: relative;
+	width: 460px;
+	margin: 0 0 43px;
+	font: 700 38px/44px "PT Sans", sans-serif;
+	text-transform: uppercase;
+}
+.connect__form-title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	width: 70px;
+	height: 0;
+	border-bottom: 1px solid #f1c40f;
+}
+.connect__form-text {
+	width: 460px;
+	margin: 0 0 95px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+.connect__email {
+	width: 370px;
+	margin: 0 0 22px;
+	padding: 20px 10px 5px 0;
+	font-size: 20px;
+	font-family: "PT Sans", sans-serif;
+	color: #fff;
+	background-color: #1c1d20;
+	border: none;
+	border-bottom: 3px solid#f1c40f;
+	outline: none;
+}
+.connect__button {
+	width: 160px;
+	margin: 0 0 0 30px;
+}
+.connect__notice {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.connect__service {
+	float: right;
+	width: 295px;
+	padding: 30px 34px;
+	background-color: #111213;
+}
+.connect__service-title {
+	font: 700 43px/48px "PT Sans", sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}

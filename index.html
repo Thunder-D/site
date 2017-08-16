@@ -1,12 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+
+	<!-- META -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- TITLE -->
 	<title>Thunder Design Digital Agency</title>
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- STYLE -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
+
+	<!-- TOP-MENU -->
+	<div class="top-menu container">
+		<a class="top-menu__logo" href="/" title="Thunder Design Studio"><img src="img/thunder-logo--top.png" alt="Thunder Design Studio"></a>
+		<ul class="top-menu__items">
+			<li class="top-menu__item"><span class="top-menu__item-link top-menu__item-link--active">Главная</span></li>
+			<li class="top-menu__item"><a class="top-menu__item-link" href="/services.html" title="Наши услуги">Услуги</a></li>
+			<li class="top-menu__item"><a class="top-menu__item-link" href="/about.html" title="О нас">О нас</a></li>
+			<li class="top-menu__item"><a class="top-menu__item-link" href="/contacts.html" title="Контакты">Контакты</a></li>
+		</ul>
+	</div>
+
+	<!-- BANNER -->
+	<div class="banner">
+		<div class="banner__wrapper">
+			<div class="banner__title">Мы <span class="banner__title--big">digital агентство</span></div>
+			<div class="banner__description">
+				Сайт — это лишь инструмент, с помощью которого мы поможем вам добиться своей цели. Мы создаем индивидуальные решения, которые помогают вывести ваш бизнес на новый уровень.
+			</div>
+			<a class="button button--yellow banner__button" href="/about.html" title="О нас">Узнать больше</a>
+			<a class="button" href="/services.html" title="Наши услуги">Услуги</a>
+			<a class="banner__more-link" href="/about.html" title="О нас">&darr;</a>
+		</div>
+	</div>
+
+	<!-- WHO-WE-ARE -->
+	<div class="who-we-are container">
+		<div class="who-we-are__left"><img src="img/thunder__who-we-are.jpg" alt="Кто мы?" title="Кто мы?"></div>
+		<div class="who-we-are__right">
+			<p class="who-we-are__text">
+				Мы&nbsp;&mdash; молодая и&nbsp;амбициозная команда. Территориально мы&nbsp;находимся как в&nbsp;России (Санкт-Петербург), так и&nbsp;в&nbsp;ОАЭ (Дубай). Мы&nbsp;подходим к&nbsp;решению каждого проекта индивидуально, делая приоритет на&nbsp;задачи, которые стоят перед вашим бизнесом.
+			</p>
+			<a class="button" href="/about.html" title="Перейти в раздел 'О нас'">Читать далее</a>
+		</div>
+	</div>
+
+	<!-- WHY-US -->
+	<div class="why-us">
+		<div class="container">
+			<div class="why-us__title">Почему мы?</div>
+			<div class="why-us__desc">
+				Прежде, чем браться за новый проект мы внимательно изучаем цели, аудиторию и сферу вашего бизнеса.
+			</div>
+			<ul class="why-us__items">
+				<li class="why-us__item why-us__item--quality">
+					<div class="why-us__item-name">Решения</div>
+					<div class="why-us__item-text">Мы разрабатываем комплексные решения для задач, которые стоят перед вашим бизнесом.</div>
+				</li>
+				<li class="why-us__item why-us__item--faster">
+					<div class="why-us__item-name">Разработка</div>
+					<div class="why-us__item-text">В своей работе мы используем современные инструменты на всех этапах проекта: от создания модели до тестировния и продвижения проекта.</div>
+				</li>
+				<li class="why-us__item why-us__item--individual">
+					<div class="why-us__item-name">Результат</div>
+					<div class="why-us__item-text">Разрабатывая новый проект мы ставим цели и работаем на результат.</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- CONNECT -->
+	<div class="connect container">
+		<div class="connect__form">
+			<div class="connect__form-title">У вас есть вопросы? Оставьте свой e-mail</div>
+			<p class="connect__form-text">
+				Наш менеджер свяжется с вами в ближайшее время и&nbsp;ответит&nbsp;на&nbsp;все&nbsp;интересующие&nbsp;вопросы.
+			</p>
+			<form id="form">
+				<input class="connect__email" type="text" name="email" value="" required="required">
+				<button class="button button--yellow connect__button" type="submit" name="">Отправить</button>
+				<span class="connect__notice">Ме не занимаемся рассылкой спама и не передаем ваши данные третьим лицам.</span>
+			</form>
+		</div>
+		<div class="connect__service">
+			<div class="connect__service-title">Хотите узнать о нас больше? Посмотрите наши услуги.</div>
+			<a class="button" href="/services.html" tilte="Перейти в раздел 'Услуги'">Перейти</a>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div class="footer container">
+		<a class="footer__logo" href="/" title="Thunder Design Studio"><img class="footer__logo-img" src="img/thunder-logo--top.png" alt="Thunder Design Studio"></a>
+		<ul class="footer__menu">
+			<li class="footer__menu-item"><span class="footer__menu-link footer__menu-link--active">Главная</span></li>
+			<li class="footer__menu-item"><a class="footer__menu-link" href="/services.html" title="Услуги">Услуги</a></li>
+			<li class="footer__menu-item"><a class="footer__menu-link" href="/about.html" title="О нас">О нас</a></li>
+			<li class="footer__menu-item"><a class="footer__menu-link" href="/contacts.html" title="Контакты">Контакты</a></li>
+		</ul>
+		<ul class="footer__social">
+			<li class="footer__social-item"><a class="footer__social-link footer__social-link--vk" href="https://vk.com" title="Мы в ВК"></a></li>
+			<li class="footer__social-item"><a class="footer__social-link footer__social-link--fb" href="https://facebook.com" title="Мы на Facebook"></a></li>
+			<li class="footer__social-item"><a class="footer__social-link footer__social-link--in" href="https://instagram.com" title="Мы в Instagram"></a></li>
+			<li class="footer__social-item"><a class="footer__social-link footer__social-link--tw" href="https://twitter.com" title="Мы в Twitter"></a></li>
+		</ul>
+	</div>
+
+	<!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+
+			// Плавная прокрутка на главной странице
+			if($('.banner__button')) {
+
+				$('.banner__button').click(function(event) {
+					event.preventDefault();
+					jQuery.scrollTo('.who-we-are', 800);
+				});
+
+				$('.banner__more-link').click(function(event) {
+					event.preventDefault();
+					jQuery.scrollTo('.who-we-are', 800);
+				});
+
+			}
+		});
+	</script>
 
 </body>
 </html>
