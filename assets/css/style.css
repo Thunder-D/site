@@ -171,6 +171,7 @@ a.link:hover{text-decoration: none;}
 
 .bigger-title{
 	font-size: 3.000em;
+	font-weight: 700;
 	display: block;
 }
 .bigger-subtitle{
