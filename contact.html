@@ -133,12 +133,11 @@
 			<div class="col-md-6">
 				<div class="row">
 					<p style="margin-top:30px; font-size:1em;line-height:30px">
-						13D, Functional apartment, Unique colony, Agadir 86360
-						+212 124-566-780
-						+212 124-566-780
+						UAE, Dubai<br>
+						+971-558-07-39-59
 					</p>
 
-					<a href="mailto:email@website.com" class="link" style="color:#f1c40f">email@website.com</a>
+					<a href="mailto:email@website.com" class="link" style="color:#f1c40f">info@thunder-d.com</a>
 				</div>
 					<div class="row">
 						<!-- social icons -->
@@ -157,43 +156,6 @@
 <!-- end contact forms -->
 
 
-<section>
-	<div class="container">
-		<div class="col-md-8">
-			<!-- left title -->
-			<div class="left-title">
-				<h2 class="big-title with-plus montserrat-text white-text uppercase" style="margin:0 0 35px;padding:0">Any questions?</h2>
-				<!-- <div class="col-md-8">
-					<div class="row">
-						<p class="white-text">
-							Оставьте свой e-amil и мы с радостью свяжемся с вами, а наш менеджер ответит на все интересующие вас вопросы.
-						</p>
-					</div>
-				</div> -->
-			</div>
-
-			<!-- input for newsletter -->
-			<div class="col-md-9" style="padding-left:0">
-				<div class="input__1">
-					<div class="input__1_icon"><i class="icon ion-email"></i></div>
-					<div class="input__1_placeholder input__1_blurred">your email</div>
-					<input type="text">
-				</div>
-			</div>
-			<div class="col-md-3">
-				<button class="btn yellow"><span>send</span></button>
-			</div>
-		</div>
-		<!-- end col -->
-		<div class="col-md-4">
-			<div class="darker-section text-square" style="padding:20px">
-				<span class="white-text montserrat-text uppercase" style="display:block">you think we're cool ? let's work together</span>
-				<a href="#" class="btn empty" style="margin-top:20px"><span>get in touch</span></a>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- end section -->
 
 <!-- footer -->
 <footer class="main-footer">
@@ -229,7 +191,8 @@
 <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
 <script type="text/javascript" src="assets/js/easings.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDqF17PHAN3uaoqximhVjTYl_HqK3z7gI8"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 
 
@@ -238,8 +201,8 @@
 	google.maps.event.addDomListener(window, 'load', initialize);
 	function initialize() {
 		var mapOptions = {
-			zoom: 11,
-			center: new google.maps.LatLng(40.6700, -73.9400), // New York
+			zoom: 12,
+			center: new google.maps.LatLng(25.1972254, 55.271585), // New York
 			scrollwheel: false,
 
 			styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
@@ -249,7 +212,7 @@
 		var map = new google.maps.Map(mapElement, mapOptions);
 
 		var marker = new google.maps.Marker({
-		    position: new google.maps.LatLng(40.6700, -73.9400),
+		    position: new google.maps.LatLng(25.1972254, 55.271585),
 		    map: map,
 			icon: 'assets/img/map.png',
 		    title: 'Find us here!'
